@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
 	background-color: #000
 }
@@ -45,3 +46,52 @@ a {
     	50% { color:  #0f0; }
     	99% { color: black; }
 }
+=======
+body {
+	background-color: #000
+}
+
+#console {
+	font-family: courier, monospace;
+	color: #fff;
+	width:750px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+	font-size:14px;
+}
+
+a {
+	color: rgb(20, 112, 218);
+	text-decoration: none;
+}
+
+#a {
+	color: #0f0;
+}
+#u {
+	color: rgb(255, 208, 0);
+}
+
+#c {
+	color: #0bc;
+}
+
+#b {
+	color: #ff0096;
+}
+
+#k {
+    	animation: change 1s;
+}
+
+#op{
+    	color: #888888
+}
+
+@keyframes change {
+    	0%  { color:  #0f0; }
+    	50% { color:  #0f0; }
+    	99% { color: black; }
+}
+>>>>>>> 6a90869e019c3c39d331d5b9b48f11b4f60d07ba
